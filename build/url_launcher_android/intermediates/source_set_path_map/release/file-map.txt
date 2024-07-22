@@ -1,0 +1,13 @@
+io.flutter.plugins.urllauncher.url_launcher_android-browser-1.5.0-0 /Users/danieanwar/.gradle/caches/transforms-3/824503c3b7fb60ca7d3438f5f7eb25bb/transformed/browser-1.5.0/res
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-window-java-1.0.0-beta04-1 /Users/danieanwar/.gradle/caches/transforms-3/8389bf6151d320a1915a6d9c8a26ac37/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.urllauncher.url_launcher_android-core-1.10.1-2 /Users/danieanwar/.gradle/caches/transforms-3/aadee4344120a7a92cf1aaf4a2edd9c7/transformed/core-1.10.1/res
+io.flutter.plugins.urllauncher.url_launcher_android-lifecycle-runtime-2.3.1-3 /Users/danieanwar/.gradle/caches/transforms-3/ca34f915537a08446988559fa4e87965/transformed/lifecycle-runtime-2.3.1/res
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-annotation-experimental-1.3.0-4 /Users/danieanwar/.gradle/caches/transforms-3/dffd5de9bf873814bbaf3bd2ba02f53a/transformed/jetified-annotation-experimental-1.3.0/res
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-window-1.0.0-beta04-5 /Users/danieanwar/.gradle/caches/transforms-3/e570d251c62f2d0f440a9586199a71f2/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.urllauncher.url_launcher_android-main-6 /Users/danieanwar/.pub-cache/hosted/pub.dev/url_launcher_android-6.2.2/android/src/main/res
+io.flutter.plugins.urllauncher.url_launcher_android-release-7 /Users/danieanwar/.pub-cache/hosted/pub.dev/url_launcher_android-6.2.2/android/src/release/res
+io.flutter.plugins.urllauncher.url_launcher_android-pngs-8 /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/url_launcher_android/generated/res/pngs/release
+io.flutter.plugins.urllauncher.url_launcher_android-resValues-9 /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/url_launcher_android/generated/res/resValues/release
+io.flutter.plugins.urllauncher.url_launcher_android-mergeReleaseResources-10 /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/url_launcher_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.urllauncher.url_launcher_android-mergeReleaseResources-11 /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/url_launcher_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.urllauncher.url_launcher_android-merged_res-12 /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/url_launcher_android/intermediates/merged_res/release

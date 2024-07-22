@@ -1,0 +1,266 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sipatex.mobilechallenge"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[:connectivity_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-79
+11-->[:connectivity_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-76
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->[:flutter_local_notifications] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-66
+12-->[:flutter_local_notifications] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-63
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->[:flutter_local_notifications] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-77
+13-->[:flutter_local_notifications] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-74
+14
+15    <permission
+15-->[androidx.core:core:1.10.1] /Users/danieanwar/.gradle/caches/transforms-3/aadee4344120a7a92cf1aaf4a2edd9c7/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+16        android:name="com.sipatex.mobilechallenge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.10.1] /Users/danieanwar/.gradle/caches/transforms-3/aadee4344120a7a92cf1aaf4a2edd9c7/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.10.1] /Users/danieanwar/.gradle/caches/transforms-3/aadee4344120a7a92cf1aaf4a2edd9c7/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.sipatex.mobilechallenge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.10.1] /Users/danieanwar/.gradle/caches/transforms-3/aadee4344120a7a92cf1aaf4a2edd9c7/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.10.1] /Users/danieanwar/.gradle/caches/transforms-3/aadee4344120a7a92cf1aaf4a2edd9c7/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/danieanwar/.gradle/caches/transforms-3/86fe295f9ed63d77a5230e2d9135e54c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+20-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/danieanwar/.gradle/caches/transforms-3/86fe295f9ed63d77a5230e2d9135e54c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:22-64
+21
+22    <application
+23        android:name="android.app.Application"
+23-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:4:9-42
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.10.1] /Users/danieanwar/.gradle/caches/transforms-3/aadee4344120a7a92cf1aaf4a2edd9c7/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:5:9-43
+26        android:label="sipatex_mobile_challenge" >
+26-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:3:9-49
+27        <activity
+27-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:6:9-26:20
+28            android:name="com.sipatex.mobilechallenge.MainActivity"
+28-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:7:13-41
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+29-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:11:13-163
+30            android:exported="true"
+30-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:8:13-36
+31            android:hardwareAccelerated="true"
+31-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:12:13-47
+32            android:launchMode="singleTop"
+32-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:9:13-43
+33            android:theme="@style/LaunchTheme"
+33-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:10:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:13:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:18:13-21:17
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:19:15-70
+44                android:resource="@style/NormalTheme" />
+44-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:20:15-52
+45
+46            <intent-filter>
+46-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:22:13-25:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:23:17-68
+47-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:23:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:24:17-76
+49-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:24:27-74
+50            </intent-filter>
+51        </activity>
+52        <!--
+53             Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+56-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:29:9-31:33
+57            android:name="flutterEmbedding"
+57-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:30:13-44
+58            android:value="2" />
+58-->/Users/danieanwar/StudioProjects/sipatex-mobile-challenge/android/app/src/main/AndroidManifest.xml:31:13-30
+59        <!--
+60           Declares a provider which allows us to store files to share in
+61           '.../caches/share_plus' and grant the receiving action access
+62        -->
+63        <provider
+63-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-21:20
+64            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+64-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-77
+65            android:authorities="com.sipatex.mobilechallenge.flutter.share_provider"
+65-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-74
+66            android:exported="false"
+66-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+67            android:grantUriPermissions="true" >
+67-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-47
+68            <meta-data
+68-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-20:68
+69                android:name="android.support.FILE_PROVIDER_PATHS"
+69-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-67
+70                android:resource="@xml/flutter_share_file_paths" />
+70-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-65
+71        </provider>
+72        <!--
+73           This manifest declared broadcast receiver allows us to use an explicit
+74           Intent when creating a PendingItent to be informed of the user's choice
+75        -->
+76        <receiver
+76-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-32:20
+77            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+77-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-82
+78            android:exported="false" >
+78-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+79            <intent-filter>
+79-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+80                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+80-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-65
+80-->[:share_plus] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-62
+81            </intent-filter>
+82        </receiver>
+83
+84        <activity
+84-->[:url_launcher_android] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-11:74
+85            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+85-->[:url_launcher_android] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-74
+86            android:exported="false"
+86-->[:url_launcher_android] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-37
+87            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+87-->[:url_launcher_android] /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-71
+88
+89        <service
+89-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] /Users/danieanwar/.gradle/caches/transforms-3/14a415696df7c9816cbde78af231e6ab/transformed/jetified-play-services-mlkit-face-detection-17.1.0/AndroidManifest.xml:9:9-15:19
+90            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+90-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] /Users/danieanwar/.gradle/caches/transforms-3/14a415696df7c9816cbde78af231e6ab/transformed/jetified-play-services-mlkit-face-detection-17.1.0/AndroidManifest.xml:10:13-91
+91            android:directBootAware="true"
+91-->[com.google.mlkit:common:18.10.0] /Users/danieanwar/.gradle/caches/transforms-3/b70a9d3ce62a9f97df4168af9bb60ad0/transformed/jetified-common-18.10.0/AndroidManifest.xml:17:13-43
+92            android:exported="false" >
+92-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] /Users/danieanwar/.gradle/caches/transforms-3/14a415696df7c9816cbde78af231e6ab/transformed/jetified-play-services-mlkit-face-detection-17.1.0/AndroidManifest.xml:11:13-37
+93            <meta-data
+93-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] /Users/danieanwar/.gradle/caches/transforms-3/14a415696df7c9816cbde78af231e6ab/transformed/jetified-play-services-mlkit-face-detection-17.1.0/AndroidManifest.xml:12:13-14:85
+94                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+94-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] /Users/danieanwar/.gradle/caches/transforms-3/14a415696df7c9816cbde78af231e6ab/transformed/jetified-play-services-mlkit-face-detection-17.1.0/AndroidManifest.xml:13:17-114
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] /Users/danieanwar/.gradle/caches/transforms-3/14a415696df7c9816cbde78af231e6ab/transformed/jetified-play-services-mlkit-face-detection-17.1.0/AndroidManifest.xml:14:17-82
+96            <meta-data
+96-->[com.google.mlkit:vision-common:17.3.0] /Users/danieanwar/.gradle/caches/transforms-3/822c0be68bde57fdd0117d81e0502aa3/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+97                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+97-->[com.google.mlkit:vision-common:17.3.0] /Users/danieanwar/.gradle/caches/transforms-3/822c0be68bde57fdd0117d81e0502aa3/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.mlkit:vision-common:17.3.0] /Users/danieanwar/.gradle/caches/transforms-3/822c0be68bde57fdd0117d81e0502aa3/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+99            <meta-data
+99-->[com.google.mlkit:common:18.10.0] /Users/danieanwar/.gradle/caches/transforms-3/b70a9d3ce62a9f97df4168af9bb60ad0/transformed/jetified-common-18.10.0/AndroidManifest.xml:20:13-22:85
+100                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+100-->[com.google.mlkit:common:18.10.0] /Users/danieanwar/.gradle/caches/transforms-3/b70a9d3ce62a9f97df4168af9bb60ad0/transformed/jetified-common-18.10.0/AndroidManifest.xml:21:17-120
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.mlkit:common:18.10.0] /Users/danieanwar/.gradle/caches/transforms-3/b70a9d3ce62a9f97df4168af9bb60ad0/transformed/jetified-common-18.10.0/AndroidManifest.xml:22:17-82
+102        </service>
+103
+104        <provider
+104-->[com.google.mlkit:common:18.10.0] /Users/danieanwar/.gradle/caches/transforms-3/b70a9d3ce62a9f97df4168af9bb60ad0/transformed/jetified-common-18.10.0/AndroidManifest.xml:9:9-13:38
+105            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+105-->[com.google.mlkit:common:18.10.0] /Users/danieanwar/.gradle/caches/transforms-3/b70a9d3ce62a9f97df4168af9bb60ad0/transformed/jetified-common-18.10.0/AndroidManifest.xml:10:13-78
+106            android:authorities="com.sipatex.mobilechallenge.mlkitinitprovider"
+106-->[com.google.mlkit:common:18.10.0] /Users/danieanwar/.gradle/caches/transforms-3/b70a9d3ce62a9f97df4168af9bb60ad0/transformed/jetified-common-18.10.0/AndroidManifest.xml:11:13-69
+107            android:exported="false"
+107-->[com.google.mlkit:common:18.10.0] /Users/danieanwar/.gradle/caches/transforms-3/b70a9d3ce62a9f97df4168af9bb60ad0/transformed/jetified-common-18.10.0/AndroidManifest.xml:12:13-37
+108            android:initOrder="99" />
+108-->[com.google.mlkit:common:18.10.0] /Users/danieanwar/.gradle/caches/transforms-3/b70a9d3ce62a9f97df4168af9bb60ad0/transformed/jetified-common-18.10.0/AndroidManifest.xml:13:13-35
+109
+110        <activity
+110-->[com.google.android.gms:play-services-base:18.1.0] /Users/danieanwar/.gradle/caches/transforms-3/1ef1451a13c7437466e4478b2b334246/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+111            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+111-->[com.google.android.gms:play-services-base:18.1.0] /Users/danieanwar/.gradle/caches/transforms-3/1ef1451a13c7437466e4478b2b334246/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+112            android:exported="false"
+112-->[com.google.android.gms:play-services-base:18.1.0] /Users/danieanwar/.gradle/caches/transforms-3/1ef1451a13c7437466e4478b2b334246/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+113-->[com.google.android.gms:play-services-base:18.1.0] /Users/danieanwar/.gradle/caches/transforms-3/1ef1451a13c7437466e4478b2b334246/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+114
+115        <meta-data
+115-->[com.google.android.gms:play-services-basement:18.1.0] /Users/danieanwar/.gradle/caches/transforms-3/b68c53b2d56a060ee9eaf184307924f2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+116            android:name="com.google.android.gms.version"
+116-->[com.google.android.gms:play-services-basement:18.1.0] /Users/danieanwar/.gradle/caches/transforms-3/b68c53b2d56a060ee9eaf184307924f2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+117            android:value="@integer/google_play_services_version" />
+117-->[com.google.android.gms:play-services-basement:18.1.0] /Users/danieanwar/.gradle/caches/transforms-3/b68c53b2d56a060ee9eaf184307924f2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+118
+119        <uses-library
+119-->[androidx.window:window:1.0.0-beta04] /Users/danieanwar/.gradle/caches/transforms-3/e570d251c62f2d0f440a9586199a71f2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+120            android:name="androidx.window.extensions"
+120-->[androidx.window:window:1.0.0-beta04] /Users/danieanwar/.gradle/caches/transforms-3/e570d251c62f2d0f440a9586199a71f2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+121            android:required="false" />
+121-->[androidx.window:window:1.0.0-beta04] /Users/danieanwar/.gradle/caches/transforms-3/e570d251c62f2d0f440a9586199a71f2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+122        <uses-library
+122-->[androidx.window:window:1.0.0-beta04] /Users/danieanwar/.gradle/caches/transforms-3/e570d251c62f2d0f440a9586199a71f2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+123            android:name="androidx.window.sidecar"
+123-->[androidx.window:window:1.0.0-beta04] /Users/danieanwar/.gradle/caches/transforms-3/e570d251c62f2d0f440a9586199a71f2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+124            android:required="false" />
+124-->[androidx.window:window:1.0.0-beta04] /Users/danieanwar/.gradle/caches/transforms-3/e570d251c62f2d0f440a9586199a71f2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+125
+126        <provider
+126-->[androidx.emoji2:emoji2:1.2.0] /Users/danieanwar/.gradle/caches/transforms-3/49bf0617af49e0b4899cab30b69bdcb2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+127            android:name="androidx.startup.InitializationProvider"
+127-->[androidx.emoji2:emoji2:1.2.0] /Users/danieanwar/.gradle/caches/transforms-3/49bf0617af49e0b4899cab30b69bdcb2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+128            android:authorities="com.sipatex.mobilechallenge.androidx-startup"
+128-->[androidx.emoji2:emoji2:1.2.0] /Users/danieanwar/.gradle/caches/transforms-3/49bf0617af49e0b4899cab30b69bdcb2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+129            android:exported="false" >
+129-->[androidx.emoji2:emoji2:1.2.0] /Users/danieanwar/.gradle/caches/transforms-3/49bf0617af49e0b4899cab30b69bdcb2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+130            <meta-data
+130-->[androidx.emoji2:emoji2:1.2.0] /Users/danieanwar/.gradle/caches/transforms-3/49bf0617af49e0b4899cab30b69bdcb2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+131                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+131-->[androidx.emoji2:emoji2:1.2.0] /Users/danieanwar/.gradle/caches/transforms-3/49bf0617af49e0b4899cab30b69bdcb2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+132                android:value="androidx.startup" />
+132-->[androidx.emoji2:emoji2:1.2.0] /Users/danieanwar/.gradle/caches/transforms-3/49bf0617af49e0b4899cab30b69bdcb2/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+133            <meta-data
+133-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/danieanwar/.gradle/caches/transforms-3/5e1cf2d83f958371880bf06d4c0d2f02/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+134                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+134-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/danieanwar/.gradle/caches/transforms-3/5e1cf2d83f958371880bf06d4c0d2f02/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+135                android:value="androidx.startup" />
+135-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/danieanwar/.gradle/caches/transforms-3/5e1cf2d83f958371880bf06d4c0d2f02/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+136        </provider>
+137
+138        <service
+138-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/danieanwar/.gradle/caches/transforms-3/86fe295f9ed63d77a5230e2d9135e54c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+139            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+139-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/danieanwar/.gradle/caches/transforms-3/86fe295f9ed63d77a5230e2d9135e54c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+140            android:exported="false" >
+140-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/danieanwar/.gradle/caches/transforms-3/86fe295f9ed63d77a5230e2d9135e54c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+141            <meta-data
+141-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/danieanwar/.gradle/caches/transforms-3/86fe295f9ed63d77a5230e2d9135e54c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+142                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+142-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/danieanwar/.gradle/caches/transforms-3/86fe295f9ed63d77a5230e2d9135e54c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+143                android:value="cct" />
+143-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/danieanwar/.gradle/caches/transforms-3/86fe295f9ed63d77a5230e2d9135e54c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+144        </service>
+145        <service
+145-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/danieanwar/.gradle/caches/transforms-3/4b6e0a36eab1478ba5dc73d83e691709/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+146            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+146-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/danieanwar/.gradle/caches/transforms-3/4b6e0a36eab1478ba5dc73d83e691709/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+147            android:exported="false"
+147-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/danieanwar/.gradle/caches/transforms-3/4b6e0a36eab1478ba5dc73d83e691709/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+148            android:permission="android.permission.BIND_JOB_SERVICE" >
+148-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/danieanwar/.gradle/caches/transforms-3/4b6e0a36eab1478ba5dc73d83e691709/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+149        </service>
+150
+151        <receiver
+151-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/danieanwar/.gradle/caches/transforms-3/4b6e0a36eab1478ba5dc73d83e691709/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+152            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+152-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/danieanwar/.gradle/caches/transforms-3/4b6e0a36eab1478ba5dc73d83e691709/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+153            android:exported="false" />
+153-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/danieanwar/.gradle/caches/transforms-3/4b6e0a36eab1478ba5dc73d83e691709/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+154    </application>
+155
+156</manifest>

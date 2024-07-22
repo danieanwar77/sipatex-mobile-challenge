@@ -1,0 +1,1 @@
+ /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/.dart_tool/flutter_build/d78eaf61a79bd82f6ae55a5365f3f9bc/native_assets.yaml: 

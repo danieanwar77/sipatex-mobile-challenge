@@ -1,0 +1,13 @@
+com.google_mlkit_commons-jetified-play-services-base-18.1.0-0 /Users/danieanwar/.gradle/caches/transforms-3/1ef1451a13c7437466e4478b2b334246/transformed/jetified-play-services-base-18.1.0/res
+com.google_mlkit_commons-core-1.6.0-1 /Users/danieanwar/.gradle/caches/transforms-3/42f1b17a072b446f2702d825d5e4ae7e/transformed/core-1.6.0/res
+com.google_mlkit_commons-jetified-annotation-experimental-1.1.0-2 /Users/danieanwar/.gradle/caches/transforms-3/5354b0bc8456488efda253d7e941c9e1/transformed/jetified-annotation-experimental-1.1.0/res
+com.google_mlkit_commons-jetified-window-java-1.0.0-beta04-3 /Users/danieanwar/.gradle/caches/transforms-3/8389bf6151d320a1915a6d9c8a26ac37/transformed/jetified-window-java-1.0.0-beta04/res
+com.google_mlkit_commons-jetified-play-services-basement-18.1.0-4 /Users/danieanwar/.gradle/caches/transforms-3/b68c53b2d56a060ee9eaf184307924f2/transformed/jetified-play-services-basement-18.1.0/res
+com.google_mlkit_commons-jetified-window-1.0.0-beta04-5 /Users/danieanwar/.gradle/caches/transforms-3/e570d251c62f2d0f440a9586199a71f2/transformed/jetified-window-1.0.0-beta04/res
+com.google_mlkit_commons-main-6 /Users/danieanwar/.pub-cache/hosted/pub.dev/google_mlkit_commons-0.7.1/android/src/main/res
+com.google_mlkit_commons-release-7 /Users/danieanwar/.pub-cache/hosted/pub.dev/google_mlkit_commons-0.7.1/android/src/release/res
+com.google_mlkit_commons-pngs-8 /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/google_mlkit_commons/generated/res/pngs/release
+com.google_mlkit_commons-resValues-9 /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/google_mlkit_commons/generated/res/resValues/release
+com.google_mlkit_commons-mergeReleaseResources-10 /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/google_mlkit_commons/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.google_mlkit_commons-mergeReleaseResources-11 /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/google_mlkit_commons/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.google_mlkit_commons-merged_res-12 /Users/danieanwar/StudioProjects/sipatex-mobile-challenge/build/google_mlkit_commons/intermediates/merged_res/release
